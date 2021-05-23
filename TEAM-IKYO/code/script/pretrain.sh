@@ -1,0 +1,11 @@
+python3 train_mrc.py --output_dir ../output \
+                     --model_name_or_path deepset/xlm-roberta-large-squad2 \
+                     --tokenizer_name deepset/xlm-roberta-large-squad2 \
+                     --config_name deepset/xlm-roberta-large-squad2 \
+                     --learning_rate 0.000005 \
+                     --num_train_epoch 2 \
+                     --per_device_train_batch_size 16 \
+                     --per_device_eval_batch_size 16 \
+                     --dataset_name ai_hub \
+                     --use_custom_model QAConvModelV2 \
+                     --run_name baseline_pretrain
