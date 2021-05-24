@@ -16,9 +16,9 @@
 ||Public Leaderboard|Private Leaderboard|
 | :----------: |  :--------:  | :--------:  |
 ||![image](https://user-images.githubusercontent.com/59340911/119259895-4dbfa700-bc0b-11eb-9633-6eb4d4c633d7.png)|![image](https://user-images.githubusercontent.com/59340911/119259913-5d3ef000-bc0b-11eb-8c10-2f667e960d31.png)|
-|Score|1st|1st|
-|EM|72.92|70.00|
-|F1|81.52|79.78|
+|**Score**|1st|1st|
+|**EM**|72.92|70.00|
+|**F1**|81.52|79.78|
 
 ---
 
