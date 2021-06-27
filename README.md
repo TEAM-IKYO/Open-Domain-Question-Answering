@@ -2,21 +2,7 @@
 > More explanations of our codes are in 🔎[TEAM-IKYO's WIKI](https://github.com/TEAM-IKYO/Open-Domain-Question-Answering/wiki)
 
 <!-- Hosted by [2021 Boostcamp AI Tech](https://boostcamp.connect.or.kr/)-->
-
-<p align="center">
-  <img width="250" src="https://user-images.githubusercontent.com/59340911/119260977-29b29480-bc10-11eb-8543-cf7ef73ddcd4.png">
-</p>
-
-
-## 🥇 Final Scores
-||Public Leaderboard|Private Leaderboard|
-| :----------: |  :--------:  | :--------:  |
-||![image](https://user-images.githubusercontent.com/59340911/119259895-4dbfa700-bc0b-11eb-9633-6eb4d4c633d7.png)|![image](https://user-images.githubusercontent.com/59340911/119259913-5d3ef000-bc0b-11eb-8c10-2f667e960d31.png)|
-|**Score**|1st|1st|
-|**EM**|72.92|70.00|
-|**F1**|81.52|79.78|
-
----
+![TEAM-IKYO’s ODQA Final Score_v3](https://user-images.githubusercontent.com/45359366/121469986-6ea03e80-c9f8-11eb-9fd1-355e50537450.png)
 
 ## 💻 Task Description
 > More Description can be found at [AI Stages](http://boostcamp.stages.ai/competitions/31/overview/description)  
@@ -31,3 +17,44 @@ The model we'll create in this competition is made up of 2 stages.The first stag
 ![image](https://user-images.githubusercontent.com/59340911/119260915-f1ab5180-bc0f-11eb-9ddc-cad4585bc8ce.png)
 
 ---
+
+## 🗂 Directory
+```
+p3-mrc-team-ikyo
+├── code
+│   ├── arguments.py
+│   ├── data_processing.py
+│   ├── elasticsearch_retrieval.py
+│   ├── inference.py
+│   ├── mask.py
+│   ├── mk_retrieval_dataset.py
+│   ├── model
+│   │   ├── ConvModel.py
+│   │   ├── QAConvModelV1.py
+│   │   ├── QAConvModelV2.py
+│   │   └── QueryAttentionModel.py
+│   ├── prepare_dataset.py
+│   ├── question_labeling
+│   │   ├── data_set.py
+│   │   ├── question_labeling.py
+│   │   └── train.py
+│   ├── requirements.txt
+│   ├── retrieval_dataset.py
+│   ├── retrieval_inference.py
+│   ├── retrieval_model.py
+│   ├── retrieval_train.py
+│   ├── run_elastic_search.py
+│   ├── script
+│   │   ├── inference.sh
+│   │   ├── pretrain.sh
+│   │   ├── retrieval_inference.sh
+│   │   ├── retrieval_prepare_dataset.sh
+│   │   ├── retrieval_train.sh
+│   │   ├── run_elastic_search.sh
+│   │   └── train.sh
+│   ├── train_mrc.py
+│   ├── trainer_qa.py
+│   └── utils_qa.py
+└── etc
+    └── my_stop_dic.txt
+```
